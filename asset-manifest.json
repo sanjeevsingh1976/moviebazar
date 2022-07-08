@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/moviebazar/static/css/main.334bdeb1.css",
-    "main.js": "/moviebazar/static/js/main.13ef93f3.js",
+    "main.js": "/moviebazar/static/js/main.c4a0e2f1.js",
     "index.html": "/moviebazar/index.html",
     "static/media/Search.svg": "/moviebazar/static/media/Search.b416605642fcb3f2447edc96c1a80e05.svg",
     "main.334bdeb1.css.map": "/moviebazar/static/css/main.334bdeb1.css.map",
-    "main.13ef93f3.js.map": "/moviebazar/static/js/main.13ef93f3.js.map"
+    "main.c4a0e2f1.js.map": "/moviebazar/static/js/main.c4a0e2f1.js.map"
   },
   "entrypoints": [
     "static/css/main.334bdeb1.css",
-    "static/js/main.13ef93f3.js"
+    "static/js/main.c4a0e2f1.js"
   ]
 }
