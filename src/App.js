@@ -8,23 +8,24 @@ import SearchIcon from './Search.svg';
 //50cffe60
 
 
-const API_URL = 'http://www.omdbapi.com?apikey=50cffe60'
+const API_URL = 'https://www.omdbapi.com?apikey=50cffe60'
 
-const movie1 ={
+//const movie1 ={
     
-        "Title": "The Lego Batman Movie",
-        "Year": "2017",
-        "imdbID": "tt4116284",
-        "Type": "movie",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_SX300.jpg"
-    
-}
+ //       "Title": "The Lego Batman Movie",
+//        "Year": "2017",
+//        "imdbID": "tt4116284",
+//        "Type": "movie",
+//        "Poster": "https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_SX300.jpg"
+//    
+//}
 
 const App = () => {
     const [movies, setMovies] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const searchMovies = async (title) => {
         const response = await fetch(`${API_URL}&s=${title}`);
+        console.log(response);
         const data = await response.json();
 
         setMovies(data.Search);
